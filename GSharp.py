@@ -10,8 +10,11 @@ def gsharpshell():
      print("Type cmds for the cmd list.")
      run = input("GSharp>")
      if run == "cmds":
-         print("CMD LIST: cmds, verison, add, exit, subtract (sub)")
+         print("CMD LIST: cmds, help, verison, add, exit, subtract (sub)")
          gsharpshell()
+     if run == "help":
+          print("Loading from files is coming soon!")
+          print("I don't really have that much to say here")
      if run == "verison":
          print("GSharp 1.0, made by the GSharp dev.")
          gsharpshell()
